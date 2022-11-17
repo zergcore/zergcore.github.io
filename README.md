@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @zergcore, a software developer from Venezuela.
+- 👋 Hi, I’m @zergcore, a Software Engineer from Venezuela.
 - 👀 I’m interested in python, R, machine learning, AI.
-- 🌱 I’m currently learning Laravel and PHP, but I have studied it before. I have studied Python, R, Java, C++, ionic, Vuejs, Bootstrap, and Angular as well
+- 🌱 I’m currently learning Django and Azure, but I know about Python, Flask, Laravel, PHP, Bootstrap, Javascript, Typescript and Node. Sometime before I coded using R, Java, C++, ionic, Vuejs, and Angular.
 - 💞️ I’m looking to collaborate on projects, new ideas, startups.
 - 📫 How to reach me: find me in reddit as zergcoredev, in telegram as zergcore, and my email is zaidi.ramos@gmail.com.
 
