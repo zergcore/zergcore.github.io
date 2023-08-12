@@ -1,0 +1,31 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3867246, 2020-12-16T11:57:38-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Oceanwide Pro Semibold by California Type Foundry
+ * URL: https://www.myfonts.com/products/semibold-oceanwide-39941
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ *
+ * Webfont: Albula Pro Bold by Serpentype
+ * URL: https://www.myfonts.com/products/bold-albula-pro-453290
+ * Copyright: Copyright © 2023 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2023 MyFonts Inc. */
+
+
+  
+@font-face {
+  font-family: "OceanwideProSemibold";
+  src: url('webFonts/OceanwideProSemibold/font.woff2') format('woff2'), url('webFonts/OceanwideProSemibold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "AlbulaProBold";
+  src: url('webFonts/AlbulaProBold/font.woff2') format('woff2'), url('webFonts/AlbulaProBold/font.woff') format('woff');
+}
+
