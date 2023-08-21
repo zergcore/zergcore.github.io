@@ -5,9 +5,9 @@ import Particles from "./components/particles";
 import { BsArrowRight } from "react-icons/bs"
 
 const navigation = [
-	{ name: "Portfolio", href: "/projects" },
-	{ name: "About", href: "/projects" },
-	{ name: "Blog", href: "/projects" },
+	{ name: "Projects", href: "/projects" },
+	{ name: "About", href: "/about" },
+	{ name: "Blog", href: "/blog" },
 	{ name: "Contact", href: "/contact" },
 ];
 
@@ -76,25 +76,50 @@ export default function Home() {
 				  ZaidibethRamos
 			  </h1>
       </div>
+      <div className="relative flex place-items-center before:absolute
+                      before:h-[300px] before:w-[480px] before:-translate-x-1/2
+                      before:rounded-full before:bg-gradient-radial
+                      before:from-white before:to-transparent before:blur-2xl
+                      before:content-[''] after:absolute after:-z-20 after:h-[180px]
+                      after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic
+                      after:from-sky-200 after:via-blue-200 after:blur-2xl
+                      after:content-[''] before:dark:bg-gradient-to-br
+                      before:dark:from-transparent before:dark:to-red-700
+                      before:dark:opacity-10 after:dark:from-rose-900
+                      after:dark:via-[#ff0101] after:dark:opacity-40 before:lg:h-[360px]
+                      z-[-1]"
+      >
+        <h2
+          className="z-10 text-xl sm:text-3xl md:text-4xl
+                    text-transparent duration-1000
+                    bg-white cursor-default text-edge-outline
+                    animate-title font-display 
+                    whitespace-nowrap bg-clip-text"
+        >
+				  Software Engineer
+			  </h2>
+      </div>
 
       <nav className="my-2 animate-fade-in">
 				<ul className="flex items-center justify-center gap-4">
-					{navigation.map((item) => (
-						<Link
-							key={item.href}
-							href={item.href}
-							className="group rounded-lg border border-transparent px-5 py-4
-                        transition-colors text-zinc-500 hover:text-zinc-300
-                        hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 
-                        hover:dark:bg-neutral-800/30"
-              rel="noopener noreferrer"
-						>
-							{item.name} {' '}
-              <span className="inline-block transition-transform group-hover:translate-x-1 
-                              motion-reduce:transform-none">
-                <BsArrowRight/>
-              </span>
-						</Link>
+					{navigation.map((item, i) => (
+            <li key={i}>
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group rounded-lg border border-transparent px-5 py-4
+                          transition-colors text-zinc-500 hover:text-zinc-300
+                          hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 
+                          hover:dark:bg-neutral-800/30"
+                rel="noopener noreferrer"
+              >
+							  {item.name} {' '}
+                <span className="inline-block transition-transform group-hover:translate-x-1 
+                                motion-reduce:transform-none">
+                  <BsArrowRight/>
+                </span>
+						  </Link>
+            </li>
 					))}
 				</ul>
 			</nav>
